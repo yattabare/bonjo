@@ -27,9 +27,6 @@
             <div class="col-md-6 col-md-offset-3">
                 <img src="../images/logo.jpeg" class="img-responsive" style="height: 200px;">
             </div>
-            <form action="../traitement/connection.php" method="POST" role="form" class="frmCompte">
-
-                <div class="col-md-6 col-md-offset-3">
                     <?php if (isset($_GET['msg']) and $_GET['msg'] == 'bloquer') : ?>
                         <div class="alert alert-danger">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
